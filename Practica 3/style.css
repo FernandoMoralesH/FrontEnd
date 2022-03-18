@@ -1,0 +1,377 @@
+html {
+    font-family: 'Agency FB', arial;
+}
+
+* {
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+h1 , h2 {
+    color: darkblue;
+}
+
+h4, h3 {
+    color: gray;
+}
+header {
+        background-color: #fff;
+        height: 60px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        opacity: 0.9;
+        z-index: 1;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.tabhed {
+    display: flex;
+
+} 
+
+.nav-icon {
+    color: #fff;
+}
+.lista {
+    color: gray;
+    text-decoration:dotted;
+    padding: 8px 12px;
+    transition: 0.5s;
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 50px;
+    color: gray;
+    font-size: 25px;
+}
+
+a {
+    border: black;
+    /*border-bottom: black;
+    border-radius: 3px;
+*/}
+#buster:hover,
+#buster {
+    background-color: blue;
+    border-bottom: 1px blue;
+    color: #fff;
+    box-shadow: 6px 6px 16px #fff;
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 70px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.titulov {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 0 40px;
+    line-height: 80px;
+    text-decoration: none;
+    color: rgba(0, 0, 139, 0.788);
+}
+.tabhed {
+    display: flex;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+
+.contenedor1 {
+    background-color: #fff;
+    padding: 100px 80px 12px 100px;
+}
+
+#titulo1{
+
+    font-size: 60px;
+    color: rgba(0, 0, 139, 0.788);
+}
+
+.seccion1 h3 {
+    padding: 10px;
+    color: gray;
+}
+
+#spans {
+    padding: 30px;
+    color: gray;
+}
+
+.icons {
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: gold;
+    margin: 5px;
+    padding-top: 3px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.336);
+    background: rgba(240, 236, 180, 0.678);
+    border-radius: 2px;
+}
+
+.subtitulo{
+    color:darkblue;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+
+}
+#container{
+    width: 700px;
+    position: relative;
+    left:100px;
+    top:80px;
+    background:rgba(232, 241, 252, 255);
+    padding: 20px 50px 20px 50px;
+    color:gray;
+}
+
+table {
+    width: 80%;
+    padding: 5px;
+}
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    color:gray;
+}
+td{
+    color:darkblue;
+    font-size: 25px;
+}
+#fecha1{
+    color: darkblue;
+    background-color: #fff;
+}
+
+#submit {
+    left:75%;
+    top: 35%;
+    position: absolute;
+    width: 20%;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px;
+}
+
+#enfermera1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 700px;
+    width: 50%;
+}
+
+#vacunas {
+    position: relative;
+    top:200px;
+    width: 100%;
+
+}
+
+.sub {
+    /*padding: 300px 20px 20px 20px;
+    */position: relative;
+    top: 200px;
+    left: 150px;
+    background-color: #fff;
+    
+}
+.Beneficios {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    top: 80px;
+    left: 20px;
+    padding: 10px;
+    /*flex-wrap:wrap;
+    width: 700px;
+    height: 200px;
+    border-radius: 9px;
+    border: rgba(128, 128, 128, 0.349) 1px solid;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);*/
+}
+
+.tipos {
+    margin:20px;
+    flex-wrap:wrap;
+    width: 200px;
+    height: 180px;
+    border-radius: 9px;
+    border: rgba(128, 128, 128, 0.349) 1px solid;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+    
+}
+
+.icunu {
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: gold;
+    margin: 5px;
+    padding-top: 3px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.336);
+    background: rgba(240, 236, 180, 0.678);
+    border-radius: 2px;
+}
+
+p {
+ font-size: 14px;
+ color: gray;
+ padding: 5px 10px 5px 10px;
+}
+
+#mujer {
+    position: relative;
+    top: 480px;
+    left: 0px;
+    height: 500px;
+    width: 50%;
+}
+
+.section2 {
+    display:flex;
+    flex-flow: column;
+    width: 400px;
+    max-width: 400px;
+    justify-content: center;
+    position:absolute;
+    right: 120px;
+    top: 1400px;
+}
+
+.cero li {
+    padding:10px;
+    color: darkblue;
+    border-radius: 9px;
+    border: rgba(248, 242, 242, 0.349) 1px solid;
+    box-shadow: 1px 1px 4px rgb(237, 238, 240);
+
+}
+
+.dibujo {
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: gold;
+    margin: 5px;
+    padding-top: 3px;
+    box-shadow: 3px 3px 4px rgba(128, 128, 128, 0.336);
+    background: rgba(240, 236, 180, 0.678);
+    border-radius: 2px;
+}
+
+#hombre {
+    display:inline-flex;
+    position: absolute;
+    right: 10px;
+    width: max-content 100px;
+    top: 80px;
+
+}
+.fin {
+    display: block;
+    position: relative;
+    top: 600px;
+    width: 100%;
+    left: 60px;
+
+}
+
+.medida {
+    width: 40%;
+    height: 80%;
+}
+
+.fin h3 {
+    width: 40%;
+}
+
+#tabfinal{
+    display: flex;
+    padding: 55px;
+    text-align: center;
+    width: 40%;
+    height: 180%;
+    justify-content: center;
+    position:absolute;
+    left: 0px;
+    
+}
+
+#tabfinal tr {
+    border: rgba(248, 242, 242, 0.349) 1px solid;
+    box-shadow: 1px 1px 4px rgb(237, 238, 240);
+}
+
+#tabfinal th{
+    color: darkblue;
+    width: 240px;
+    height: 80px;
+
+}
+
+.botfin {
+    background-color: blue;
+    border-bottom: 1px blue;
+    color: #fff;
+    box-shadow: 3px 3px 8px #fff;
+    width: 140px;
+    height: 50px;
+
+}
+
+
+
+footer{
+    background-color: #B9C2DE;
+    opacity: 0.7;
+    position: relative;
+    top: 1150px;
+    width: 100%;
+    padding: 20px 100px 50px 100px;
+}
+
+.hola {
+    display:inline-flex;
+    position:absolute;
+    left: 800px;
+    top: 10px;
+    font-size: 23px;
+}
+
+.hola th {
+    color:darkblue;
+}
+
+.hola td {
+    font-size: 17px;
+    color:gray;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    padding: 10px 20px 10px 20px;
+}
