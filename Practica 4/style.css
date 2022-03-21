@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    background-color: azure;
+    background-size: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: bisque;
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.nombre {
+    width: 900px;
+    margin: 0 auto;
+    background: url(img/pocketdesk.jpg) no-repeat 0px; 
+    background-size: 800px;
+    background-position: center;
+    border-top: 6px blueviolet solid;
+    padding: 300px 300px 300px 300px;
+    padding-top: 150px;
+    color:azure;
+    line-height: 1px;
+}
+
+#datos {
+    position: relative;
+    left: 180px;
+    font-weight:bold;
+    top: 45px;
+}
+
+img {position: relative;
+    left: 820px;
+    bottom: 350px;
+}
