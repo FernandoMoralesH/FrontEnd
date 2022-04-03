@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpomrt" content="width=device-width, initial-scale=1.0">
+
+</title> <h1>Pasteleria: Los perritos Cosmicos</h1></title>
+<style>
+
+    *{
+        font-family:'Agency FB', sans-serif;
+        background: #d8cdf1e8; 
+    }
+
+    h1{text-align:center;
+    }   
+    
+    h2{text-align:left;
+    }    
+    
+    </style>
+
+</head>
+<body>
+
+    <h1>Formulario</h1>
+
+    <!-- Tipos de Inputs -->
+    <h2>Datos de Cliente</h2>
+
+    <label for="Nombre">Registrar Nombre</label><br>
+    <input type="text" id="Nombre" placeholder="Nombre"><br><br>
+
+    <label for="correo">Registrar correo</label><br>
+    <input type="email" id="correo" placeholder="correo"><br><br>
+    
+    <label for="tel">Teléfono</label><br>
+    <input type="tel" id="tel" placeholder="tel" maxlength="10"><br><br>
+
+    <label for="Descripcion">Descripcion sobre su pastel</label><br>
+    <input type="text" id="Descricpion" placeholder="Pequeña Descripcion (Max 200 caracteres)" maxlength="200"size="150"><br><br>
+    
+    <hr>
+    
+    <h2>Selección de Pastel</h2><br>
+    <input type="radio" id="Apolo Cooker" name="Pastel" value="Apolo Cooker">
+    <label for="Apolo cooker">Apolo Cooker (Cheese cake)</label><br>
+    <input type="radio" id="Asteoide schnauzer" name="Pastel" value="Asteoide schnauzer">
+    <label for="Asteoide schnauzer">Asteoide schnauzer (Tres Leches)</label><br>
+    <input type="radio" id="Galaxia Dalmata" name="Pastel" value="Galaxia Dalmata">
+    <label for="Galaxia Dalmata">Galaxia Dalmata (Napolitano)</label><br>
+    <input type="radio" id="Cometa Labrador" name="Pastel" value="Cometa Labrador">
+    <label for="Cometa Labrador">Cometa Labrador (Imposible)</label><br>
+    <input type="radio" id="Polvo estelar Pit bull" name="Pastel" value="Polvo estelar Pit bull">
+    <label for="Polvo estelar Pit bull">Polvo estelar Pit bull (Chocolate)</label><br>
+    <br>
+
+    <h2>Selección de Adornos</h2><br>
+    <input type="radio" id="Doberman Meteoro (Bodas)" name="Adorno" value="Doberman Meteoro (Bodas)">
+    <label for="Doberman Meteoro (Bodas)">Doberman Meteoro (Bodas)</label><br>
+    <input type="radio" id="Samoyedo Super NOVA (Graduación)" name="Adorno" value="Samoyedo Super NOVA (Graduación)">
+    <label for="Samoyedo Super NOVA (Graduación)">Samoyedo Super NOVA (Graduación)</label><br>
+    <input type="radio" id="Boxer Estrella(Cumpleaños)" name="Adorno" value="Boxer Estrella(Cumpleaños)">
+    <label for="Boxer Estrella(Cumpleaños)">Boxer Estrella(Cumpleaños)</label><br>
+    <input type="radio" id="Chihuahua Satelite(Bautizo)" name="Adorno" value="Chihuahua Satelite(Bautizo)">
+    <label for="Chihuahua Satelite(Bautizo)">Chihuahua Satelite(Bautizo)</label><br>
+    <input type="radio" id="Maltilpoo Nebulosa (Sorpresa)" name="Adorno" value="Maltilpoo Nebulosa (Sorpresa)">
+    <label for="Maltilpoo Nebulosa (Sorpresa)">Maltilpoo Nebulosa (Sorpresa)</label><br>
+    <br>
+
+    <h2>En la eleccion de su pastel puede conbinar con los siguientes ingredentes:</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="Betun Chocolate">
+    <label for="topping1">Betun con Chocolate</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Aderezo de Fresa">
+    <label for="topping2">Aderezo de Fresa</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Aderezo de frutos Rojos">
+    <label for="topping3">Aderezo de frutos Rojos</label><br><br>
+    <br>
+
+    <hr>
+    
+    <h2>Fecha en que necesita su pedido</h2><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    
+    <hr>
+
+    
+    <h2>Si lo desea puede enviar una imagen con la que decoraremos el empaque del Pastel. (Costo extra $30)</h2><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    
+    <h2>Seleccione el color de empaque de su preferencia</h2><br>
+    <input type="color" id="color1" name="color1"><br><br>
+    
+
+    <hr>
+    
+    <h2>Input de botón</h2>
+    <input type="reset"><br>
+    <input type="submit" id="Enviar consulta" name="Enviar consulta" value="Enviar consulta" onclick="alert('Envio Exitoso');"><br><br>
+   
+</body>
+</html>
